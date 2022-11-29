@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, purple, rgb(190, 162, 158));
+}
+
+.header {
+    background-image: url(./Naruto.jpg);
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+
+h3 {
+    color: palevioletred;
+}
+
+p {
+    color: pink;
+}
+
+h5 {
+    color: pink;
+    padding-left: 20px;
+}
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(86, 21, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    border-right: 1px solid #999;
+    padding: 0 20px;
+}
+
+.navbar li:hover {
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+.navbar li:hover a {
+    color: #9e4f8f;
+}
+
+nav .border {
+    border-right: none;
+}
+
+aside {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.menu {
+    color: #fff;
+    justify-content: space-between;
+}
+
+.menu h3 {
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    margin-left: 15px;
+}
+
+.menu li a {
+    color: pink;
+}
+
+.block {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.block h3 {
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.block p {
+    color: pink;
+}
+
+.Gallery {
+    justify-content: center;
+    align-items: center;
+}
+
+.Gallery h3 {
+    margin-bottom: 10px;
+}
+
+.Gallery p {
+    border-top: 2px solid #444;
+    padding-top: 10px;
+}
+
+.container {
+    padding: 10px 180px;
+}
+
+.section {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.end {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding-top: 100px;
+}
+
+.end .service {
+    border-left: 2px solid #444;
+    padding-left: 15px;
+}
+
+.end .sub h3 {
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.end .service h3 {
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+section {
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px black solid;
+    margin: 8%;
+    font-style: italic;
+    color: pink;
+}
+
+legend {
+    margin-left: 10px;
+}
+
+.form {
+    width: 900px;
+    height: 200px;
+    margin-left: 180px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.form input {
+    margin: 10px;
+}
+
+.form label {
+    margin: 10px;
+}
